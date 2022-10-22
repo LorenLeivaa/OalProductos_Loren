@@ -13,6 +13,9 @@ body{
     position: relative;
     overflow-x: hidden;
 }
+#header {
+    box-shadow: 8px 8px 50px rgb(67, 67, 67);
+}
 #header a {
     border-radius: 10px;
     margin-left: 5px;
@@ -47,7 +50,7 @@ main a:visited {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow:  15px 15px 35px black;
+    box-shadow:  10px 10px 35px black;
 }
 .productos__img {
     width: 100%;
