@@ -80,13 +80,18 @@ main a:visited {
 }
 @media screen and (max-width: 508px) {
     .main { 
-        grid-template-columns:repeat(2,minmax(100px, 200px)) ;
+        grid-template-columns:repeat(2,minmax(128px, 200px)) ;
         grid-template-rows:repeat(2, 300px) ;
         padding:30px 20px 0px 20px ;}
     .productos{
         height: 300px;}
     .productos__text p {  
         visibility: hidden;
-        font-size: 8px;
-        
+        font-size: 7px;
+        padding: 0px;
+    }
+    @media screen and (max-width: 434px){
+        .productos__text p{
+            font-size: 6px;
+        }
     }
