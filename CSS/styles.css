@@ -38,15 +38,19 @@ main a:link {
 main a:visited {
     color: rgb(27, 130, 247);
 }
+
 .main {
     display: grid;
     grid-template-columns:repeat(auto-fill,minmax(200px, 1fr)) ;
-    grid-template-rows:repeat(2, 300px) ;
+    grid-template-rows:repeat(2, 400px) ;
     grid-auto-rows:400px ;
+    grid-area: ;
     grid-gap: 30px;
     padding: 60px 30px;
 }
 .productos {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
@@ -60,6 +64,9 @@ main a:visited {
 .productos__text {
     padding: 10px;
 }
+.productos__link {
+    visibility: hidden;
+}
 .footer {
     display:flex;
     flex-direction: column;
@@ -71,4 +78,15 @@ main a:visited {
 .footer i {
     color:white;
 }
-    
+@media screen and (max-width: 508px) {
+    .main { 
+        grid-template-columns:repeat(2,minmax(100px, 200px)) ;
+        grid-template-rows:repeat(2, 300px) ;
+        padding:30px 20px 0px 20px ;}
+    .productos{
+        height: 300px;}
+    .productos__text p {  
+        visibility: hidden;
+        font-size: 8px;
+        
+    }
