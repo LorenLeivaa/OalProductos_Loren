@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(227, 216, 216);
+    background-color: rgb(255, 255, 255);
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
@@ -44,15 +44,15 @@ main a:visited {
     padding: 30px;
 }
 .productos {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
+    box-shadow:  15px 15px 35px black;
 }
 .productos__img {
     width: 100%;
     height: 70%;
     border-bottom: 2px solid black;
-    border-style: ;
 }
 .productos__text {
     padding: 10px;
