@@ -82,7 +82,8 @@ main a:visited {
     .main { 
         grid-template-columns:repeat(2,minmax(128px, 200px)) ;
         grid-template-rows:repeat(2, 300px) ;
-        padding:30px 20px 0px 20px ;}
+        grid-auto-rows:300px ;
+        padding:30px 20px 40px 20px ;}
     .productos{
         height: 300px;}
     .productos__text p {  
