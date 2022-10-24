@@ -46,7 +46,7 @@ body{
     font-size: 25px;
 }
 #header ul {
-    margin right: 20px;
+    margin-right: 20px;
 }
 #navbarNav {
     justify-content: flex-end;
@@ -67,7 +67,6 @@ main a:visited {
     grid-template-columns:repeat(auto-fill,minmax(200px, 1fr)) ;
     grid-template-rows:repeat(2, 400px) ;
     grid-auto-rows:400px ;
-    grid-area: ;
     grid-gap: 30px;
     padding: 60px 30px;
 }
@@ -78,7 +77,6 @@ main a:visited {
     border-radius: 10px;
     overflow: hidden;
     box-shadow:  10px 10px 35px black;
-    justify-content: ;
 }
 .productos__img {
     width: 100%;
@@ -116,3 +114,4 @@ main a:visited {
         padding: 0px;
         font-size: 6px
     }
+}
